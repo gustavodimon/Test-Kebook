@@ -1,0 +1,327 @@
+.titleimg{
+    height: 35px;
+    width: 120px;
+    
+}
+
+.bar{
+    text-decoration: none;
+    padding: 2px 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s ease;
+    /* margin-top: 40px */
+}
+.bar:hover{
+    font-weight: bold;
+}
+
+.cabecario{
+    
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+.login{
+    outline: none;
+    display: block;
+    border: solid 2px white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 11px 25px;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    height: 50px;
+    width: 220px;
+    align-content: center;
+    align-items:center ;
+    text-align: center;
+    
+}
+.login:hover,
+.login:focus{
+    background: red;
+    border-color: red;
+}
+.login:active{
+    background: red;
+    border-color: red;
+}
+.login-icon{
+    height: 20px;
+    width: 20px;
+}
+body {
+    background-image: url(back-top-home.png) !important;
+    margin: 0;
+  }
+.search {
+    height: 24px;
+    width: 24px;
+    color: white;
+    
+}
+.desc{
+    height: 65px;
+    width: 600px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    
+
+}
+.corp{
+    height: 400px;
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    height: 413px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: white;
+    margin-top: 25px;
+}
+.a{
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.m{
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+.s{
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.t{
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-right: 390px;
+}
+.flex-container1{
+    display: block;
+    margin-left: 330px;
+    height: 300px;
+    color: white;
+    font-family: 'Nunito',sans-serif;
+    
+}
+.inv{
+    height: 140px;
+    width: 778px;
+    font-size: 80px;
+}
+.cads{
+    margin-left: 330px;
+    height: 400px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cad{
+    height: 100px;
+}
+.profile{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.comprar{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    /* margin: 10p;;     */
+    color: white;
+    background: red;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: red;
+    transition: all 0.3s linear;
+    margin-top: 400px;
+}
+.comprar:hover,
+.comprar:focus{
+    background: linear-gradient(90deg, red, red, orange);
+    background-position: right;
+    background-size: 200%;
+}
+.comece{
+    outline: none;
+    /* display: block; */
+    border: solid 2px white;
+    font-size: 20px;
+    line-height: 1;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    height: 60px;
+    width: 400px;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+.comece:hover,
+.comece:focus{
+    background: red;
+    border-color: red;
+}
+.comece:active{
+    background: red;
+    border-color: red;
+}
+ul{
+    padding: 0px;
+}
+#sidemenu{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-basis: 30%;
+    margin-left: 50px;
+}
+/* #sidemenu:hover{
+    
+} */
+#menu{
+    display: none;
+    list-style: none;
+    gap: 0.8rem;
+}
+
+@media (max-width: 2000px){
+    #btn-menu{
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        height: 240px;       
+        background: white;
+        width: 100vh;
+        border-radius: 0 20px 20px;
+      }
+      #menu {
+        flex-wrap: wrap;
+      }
+      li {
+        flex-basis: 30%;
+        font-size: 15px;
+      }
+      
+}
+#nav.active #menu{
+    display: flex;
+}
+#nav.active .menu {
+    display: block;
+  }
+#menu a {
+    transition: all 0.4s linear;
+}
+#menu a:hover{
+    font-weight: bold;
+    border-bottom: 1px solid orange;
+    color: orange;
+
+}
+#btn-menu{
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 17px;
+    font-weight: bold 1px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    gap: .5rem;
+}
+#hamburguer{
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+}
+#hamburguer::after, #hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    
+}
+#menu li{
+    line-break: auto;
+}
+.img-home{
+    margin-left: 650px;
+    margin-top: -275px;
+    width: 470px;
+}
+#branco{
+    display: none;
+    
+}
+#branco.active{
+    display: flex;
+    width: 1600px;
+    height: 750px;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+
+}
+#txt{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    /* margin-left: 90px; */
+    font-size: 30px;
+    border: none;
+    border-bottom: grey 6px;
+    flex-direction: column;
+    align-self: center;
+
+}
+#searchbar{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#txtbusca{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 800px;
+    align-self: center;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+#imgsearch{
+    height: 50px;
+    width: 60px;
+}
+
